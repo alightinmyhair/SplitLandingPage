@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #345634;
+}
+
+.split {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.split.left {
+    left: 0;
+    background-image: url(Kombucha_Mature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.split.right{
+    right: 0;
+    background-image: url(Mindfulness_YogaPose\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
